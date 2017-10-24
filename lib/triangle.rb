@@ -19,10 +19,10 @@ class Triangle
       kind
     end
   end
-      
-      
-    
-  
+
+
+
+
 end
 
 class TriangleError < StandardError
