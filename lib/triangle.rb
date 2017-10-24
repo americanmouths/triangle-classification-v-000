@@ -17,7 +17,7 @@ class Triangle
     elsif @side1 != @side_2 && @side_2 != @side_3 && @side_1 != @side_3
       kind = :scalene
       kind
-    elsif @side_1 == 0 || @side_2 == 0 || @side_3 == 0
+    elsif @side_1 == 0 && @side_2 == 0 && @side_3 == 0
       raise TriangleError
     end
   end
