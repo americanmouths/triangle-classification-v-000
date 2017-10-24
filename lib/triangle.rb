@@ -18,6 +18,7 @@ class Triangle
       kind = :scalene
       kind
     end
+  end
       
       
     
